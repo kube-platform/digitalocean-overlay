@@ -22,7 +22,7 @@ Visit the [KubePlatform component description](https://kube-platform.github.io/d
 
 ## Precondition
 - [kustomize](https://github.com/kubernetes-sigs/kustomize/releases) is needed for the installation
-- A GKE Kubernetes Cluster with at least 3 instances of ```n1-standard-2``` worker nodes is required
+- A DigitialOcean Kubernetes Cluster with at least 3 nodes with a node plan of ```Includes: 8 GB Memory / 4 vCPUs``` is required
 
 ## Installation
 The tutorial [Getting Started on GKE](https://kube-platform.github.io/docs/tutorial/) is a step-by-step walkthrough for installing KubePlatform on GKE/GCP in 10 minutes.
