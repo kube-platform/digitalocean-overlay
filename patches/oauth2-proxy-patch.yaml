@@ -7,8 +7,7 @@ spec:
     spec:
       containers:
       - name: oauth2-proxy
-        args: 
-        - --cookie-domain=$(DOMAIN)
+        args:
         # name of this cookie is also referenced in Ingresses (cookie split issue)
         - --cookie-name=auth
         - --cookie-refresh=1h
